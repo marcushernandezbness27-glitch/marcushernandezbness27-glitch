@@ -1,16 +1,30 @@
-## Hi there 👋
+# Marcus Hernandez
 
-<!--
-**marcushernandezbness27-glitch/marcushernandezbness27-glitch** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I build automation and data systems — ETL pipelines, commission engines, AI-assisted workflows — for businesses that have outgrown spreadsheets and manual processes.
 
-Here are some ideas to get you started:
+My background is in sales operations, which means I understand the problem before the code: what a broken commission run costs at the end of the month, why a CRM sync that silently drops cancellations is worse than one that fails loudly, and what a non-technical stakeholder actually needs from a dashboard. I moved to the engineering side because I kept being the person who knew what to build but had to ask someone else to build it.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Available for Upwork engagements focused on automation, data pipelines, and backend integrations.
+
+---
+
+## Projects
+
+### [stellapura-payroll](https://github.com/marcushernandezbness27-glitch/stellapura-payroll-public)
+Real-money weekly commission payroll running entirely on Cloudflare's edge (Workers + D1 + Durable Objects). Highlights: CAS-based double-disbursement prevention, change-detection diff for automatic cancellation clawbacks, declarative rate-table engine (no `eval` — platform-disabled), BigQuery analytics via Workload Identity Federation.  
+`TypeScript` `Cloudflare Workers` `D1` `Hono` `Durable Objects` `BigQuery` `ADP WorkMarket`
+
+### [salon-freedom-pipeline](https://github.com/marcushernandezbness27-glitch/salon-freedom-pipeline)
+Multi-source social + survey data pipeline feeding a GPT-4.1-mini analysis stage that clusters pain points, scores buying signals, and generates ranked offer concepts as a DOCX report. Includes two production bug writeups (silent data-loss fix, hardcoded placeholder replaced with real computation).  
+`Python` `Meta Graph API` `Mailchimp API` `OpenAI` `pandas` `pydantic` `pytest`
+
+---
+
+## Stack
+
+**Languages:** TypeScript · Python  
+**Edge / Cloud:** Cloudflare Workers · D1 · KV · Durable Objects · Cron Triggers · BigQuery (GCP)  
+**APIs & integrations:** Meta Graph API · Mailchimp · OpenAI · ADP WorkMarket · Resend  
+**Data:** pandas · pydantic · SQLite · ETL pipeline design  
+**Automation:** Make.com · GHL · Airtable  
+**Testing:** Vitest · pytest · requests-mock
