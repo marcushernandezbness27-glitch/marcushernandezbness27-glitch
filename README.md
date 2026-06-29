@@ -19,7 +19,8 @@ Multi-source social + survey data pipeline feeding a GPT-4.1-mini analysis stage
 `Python` `Meta Graph API` `Mailchimp API` `OpenAI` `pandas` `pydantic` `pytest`
 
 ### [Invoice Automation — Airtable + OpenAI + Google Docs](https://us2.make.com/public/shared-scenario/5F6FR14Ou8m/ai-powered-invoice-automation)
-New service request in Airtable triggers Make.com to call OpenAI, generate a professional invoice, create a Google Doc, email it to the client, and write the doc link back — full loop, zero manual steps.  
+New service request in Airtable triggers Make.com to call OpenAI, generate a professional invoice, create a Google Doc, email it to the client, and write the doc link back — full loop, zero manual steps.
+[view recorded video](https://www.loom.com/share/f4ee4709dbdf4bf3b389a149cbe9b5a9)
 `Make.com` `Airtable` `OpenAI API` `Google Docs` `Gmail`
 
 ### [Power BI Dashboards](https://github.com/marcushernandezbness27-glitch/powerbi-dashboards-public)
