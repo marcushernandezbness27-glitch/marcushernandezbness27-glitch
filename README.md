@@ -27,7 +27,7 @@ Three operational BI dashboards: restaurant ops (covers, COGS%, labor%), marketi
 Airtable-triggered invoice automation: AI-drafted invoice content (OpenAI), formatted Google Doc, emailed to client, status written back to Airtable — zero manual steps from new record to delivered invoice.  
 `Make.com` `Airtable` `OpenAI API` `Google Docs API` `Gmail API`  
 [View Scenario →](https://us2.make.com/public/shared-scenario/5F6FR14Ou8m/integration-airtable)  
-[view recorded video](https://www.loom.com/share/f4ee4709dbdf4bf3b389a149cbe9b5a9)
+[View Demo Video →](https://www.loom.com/share/f4ee4709dbdf4bf3b389a149cbe9b5a9)
 
 ---
 
