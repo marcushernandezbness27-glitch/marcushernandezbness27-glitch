@@ -22,6 +22,10 @@ Multi-source social + survey data pipeline feeding a GPT-4.1-mini analysis stage
 New service request in Airtable triggers Make.com to call OpenAI, generate a professional invoice, create a Google Doc, email it to the client, and write the doc link back — full loop, zero manual steps.  
 `Make.com` `Airtable` `OpenAI API` `Google Docs` `Gmail`
 
+### [Power BI Dashboards](https://github.com/marcushernandezbness27-glitch/powerbi-dashboards-public)
+Three operational dashboards: restaurant ops (covers, COGS%, labor%, table turns), marketing funnel, and SaaS payroll metrics. Built in Power BI Desktop with DAX measures and synthetic datasets.  
+`Power BI` `DAX` `Power Query` `Looker Studio`
+
 ---
 
 ## Stack
